@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>
+    Tetrax | Machines & Spare Parts | Quality Industrial Solutions
+  </title>
+  <meta name="description" content="Tetrax is your source for high-quality industrial solutions. We offer trusted brands, exceptional service, and competitive pricing.">
+  <meta name="keywords" content="Tetrax, packaging, general products, high-quality, competitive prices, fast shipping, great service, bags, boxes, containers, bottles, jars, cans, food packaging, beverage packaging, cosmetic packaging, pharmaceutical packaging, industrial packaging, retail packaging, custom packaging, eco-friendly packaging, sustainable packaging, packaging supplies, packaging equipment, packaging materials, packaging solutions, product packaging, product protection, product presentation">
+  <meta name="author" content="Moon Lines Agency">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="canonical" href="https://www.tetraxgroup.net/machines-spareparts" />
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+  <!-- SimpleLightbox plugin CSS-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+  <link rel="icon" href="../imgs/tetrax icon.png" type="icon">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../css/machinesStyle.css">
+  <script>
+   /*  window.addEventListener('DOMContentLoaded', event => {
+      new SimpleLightbox({
+        elements: '#portfolio a.portfolio-box'
+      });
+    }); */
+  </script>
+  <script>
+
+    function machines() {
+      $("#portfolio").show();
+      $("#portfolio2").hide();
+      $("#machines-button").addClass("active");
+      $("#spareparts-button").removeClass("active");
+
+    };
+
+    function spareparts() {
+      console.log("fruits button pressed");
+      $("#portfolio2").show();
+      $("#portfolio").hide();
+      $("#spareparts-button").addClass("active");
+      $("#machines-button").removeClass("active");
+
+
+    };
+
+    $(document).ready(function () {
+      machines();
+
+    });
+
+  </script>
+<script>   
+  function myFunction(){
+   document.getElementById('myTopnav').classList.toggle('responsive');
+ }
+ </script>
+ <script>
+  if ($(window).width() > 992 ) {
+ window.addEventListener('scroll',function(){
+ const backColor= document.querySelector('header');
+
+ if(window.scrollY<100){
+ backColor.classList.add('nav-transperent');
+ backColor.classList.remove('nav-colored');
+
+ }
+ else{
+ 
+ backColor.classList.add('nav-colored');
+ backColor.classList.remove('nav-transperent');
+
+ }
+ 
+ });}
+ </script>
+</head>
+
+<body id="top">
+  <header>
+    <div class="topnav " id="myTopnav">
+          
+      <a class="topLogo " href="../index.html"><img src="../imgs/tetrax logo.png" class="logo" alt="TETRAX logo"></a>
+     
+   
+      <div class="atsa ">
+      <a class="nav-link class1 a products" href="../index.html#section-2">Our products</a>
+      <a class="nav-link class2 a" href="../index.html#section-5">Our services</a>
+      <a class="nav-link class3 a" href="../index.html#section-7">About us</a>
+      <a class="nav-link class4 a" href="../index.html#section-9">Contact us</a>
+      </div>           
+            
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="bi bi-justify"></i></a>
+       
+        </div>
+  
+     
+  </header>
+    <div><h1>MACHINES & SPARE PARTS</h1></div>
+    
+  
+
+  
+    <div class="container-fluid p-0">
+      <div class="navigation">
+        <h2 style="display:inline-block;"><button type="button" class="machines" onclick="machines()"  id="machines-button">MACHINES </button>
+        </h2>
+        <p class="breakline" style="display: inline-block;">|</p>
+        <h2 style="display:inline-block;"><button type="button" class="machines" onclick="spareparts()" id="spareparts-button"> SPARE PARTS</button>
+        </h2>
+      </div>
+      <div id="portfolio">
+        <div class="row g-0" >
+          <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+            
+            <h3>Powder Filling Machines</h3>
+           
+  
+              <img class="img-fluid" src="../imgs/Powder filling.jpg" alt="Powder Filling Machines image">
+  
+          </div>
+          <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+            
+            <h3>Liquid Vertical Filling Machines VFFS</h3>
+           
+  
+              <img class="img-fluid" src="../imgs/Liquid vertical filling.jpg" alt="Liquid Vertical Filling Machines VFFS image">
+  
+          </div>
+          <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+            
+            <h3>Flour Filling & Bag Making Machines</h3>
+        
+  
+              <img class="img-fluid" src="../imgs/Flour filling and bag making.jpg" alt="Flour Filling & Bag Making Machines image">
+  
+          </div>
+          <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+            
+            <h3>Injection Blow Molding Machines</h3>
+            
+  
+              <img class="img-fluid" src="../imgs/Injection blow moulding.jpg" alt="Injection Blow Molding Machines image">
+  
+          </div>
+        </div>
+   
+
+      </div>
+      <div id="portfolio2">
+        <div class="row g-0">
+          <div class="col col-lg-12 col-md-12 col-sm-12 col-12">
+            
+            <h3>Spare Parts </h3>
+  
+              <img class="img-fluid" src="../imgs/Spare Parts.jpg" alt="Spare Parts image">
+  
+          </div>
+
+        </div>
+      </div>
+      </div>
+      
+  <footer>
+    <p class="copyright">
+      All rights reserved. 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By <a href="https://www.moonlines.net/" class="moon-website" target="_blank">MOON LINES</a></p>
+  </footer>
+
+  <script>
+
+
+  </script>
+</body>
+
+</html>

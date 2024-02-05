@@ -1,0 +1,641 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #ffffff;
+
+}
+
+.logo {
+    width: 10%;
+    margin-left: 2%;
+    margin-bottom: 1rem;
+    float: left;
+}
+.a:hover {
+    color: #164598;
+}
+
+.a:focus {
+
+    text-decoration: none;
+    color: #164598;
+}
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: transparent;
+    transition: .5s;
+
+}
+
+h1 {
+    color: #164598;
+    font-family: 'Oswald';
+    text-align: center;
+    font-weight: 500;
+    font-size: 8rem;
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+
+
+}
+h3 {
+    font-family: 'Open Sans';
+    width: fit-content;
+    display: block;
+    width: 50%;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.5;
+    margin: auto;
+    color: #929497;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
+}
+.a {
+    padding: 14px 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #164598;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.products {
+
+    color: #00aeef;
+}
+
+.products:hover {
+    color: #00aeef;
+}
+
+.products:focus {
+    text-decoration: none;
+    color: #00aeef;
+}
+.atsa {
+    float: right;
+
+    margin-top: 0%;
+
+}
+.topnav .icon {
+    display: none
+}
+
+/* copy this */
+.nav-colored {
+    background-color: #ddf6ff;
+}
+
+/* copy this */
+.nav-transperent {
+    margin-top: 0;
+    background-color: transperent;
+}
+.topnav {
+    margin-top: 2rem;
+}
+h2 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #164598;
+    font-family: 'Oswald';
+    width: fit-content;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    z-index: 3;
+
+}
+
+img {
+    width: 100%;
+}
+footer {
+    margin-top: auto;
+    height: fit-content;
+}
+
+.copyright {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #164698;
+    font-weight: 450;
+    margin-bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.moon-website {
+    color: white;
+    text-decoration: none;
+
+}
+
+.moon-website:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+.moon-website:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.moon-website:active {
+    text-decoration: none;
+    color: white;
+}
+.pimg {
+    object-fit: cover;
+    height: 70vh;
+  
+}
+
+
+.image-section {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.40);
+    width: 100%;
+    height: 15vh;
+
+}
+
+.text-image-section {
+    color: white;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 50px;
+}
+.col {
+    padding: 0%;
+    text-align: center;
+}
+.text-image-section-top {
+    color: white;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 50px;
+    position: absolute;
+
+    
+}
+.image-section-top{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.40);
+    width: 100%;
+    height: 15vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* laptop version */
+@media only screen and (max-width: 1700px) {
+
+    .logo {
+        width: 12%;
+        margin-left: 2%;
+        float: left;
+    }
+
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        z-index: 99;
+
+    }
+    h3 {
+
+      
+        line-height: 1.5;
+        margin: auto;
+       
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 7rem;
+        margin-top: 2rem;
+    }
+    .text-image-section {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    .atsa {
+        margin-top: .5%;
+    }
+
+    .a {
+        position: flex;
+        align-items: center;
+        padding: 0 18px;
+        font-size: .9em;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 6rem;
+        margin-top: 8rem;
+        margin-bottom: 7rem;
+
+
+    }
+
+    .copyright {
+        font-size: 15px;
+        font-weight: 450;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    header {
+        background-color: #ddf6ff;
+    }
+
+   
+    h1 {
+        font-weight: 500;
+        font-size: 5rem;
+        margin-top: 15rem;
+        margin-bottom: 4rem;
+    }
+    h3 {
+        
+       
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 7rem;
+        margin-top: 2rem;
+    }
+    .image-section {
+        width: 100%;
+        height: 10vh;
+
+    }
+
+    .text-image-section {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    .logo {
+        margin-top: 3%;
+        width: 20%;
+    }
+  /* copy this */
+  .a:hover {
+    text-decoration: none;
+    color: #164598;
+}
+
+/* copy this */
+.a:focus {
+    text-decoration: none;
+    color: #164598;
+}
+
+.col {
+    padding: 0%;
+    text-align: center;
+}
+ /* copy this */
+ .topnav .a {
+    display: none;
+}
+.topnav a.icon {
+    position: absolute;
+    width: fit-content;
+    top: 10%;
+    right: 2rem;
+    font-size: 4rem;
+    display: block;
+    float: right;
+
+}
+
+/* copy this */
+.topnav.responsive {
+    position: relative;
+
+}
+
+/* copy this */
+.topnav.responsive a.icon {
+    position: fixed;
+    right: 2rem;
+    top: 1%;
+
+}
+
+.atsa {
+
+    display: block;
+    /* padding-right: 35%; */
+    width: 100%;
+    padding-top: 0%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+.topnav.responsive .atsa{
+    margin-bottom: 3%;
+}
+/* copy this */
+.topnav.responsive .a {
+    width: fit-content;
+    display: block;
+    padding: 2% 0% 0% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+
+}
+
+.topnav.responsive .atsa {
+    padding-bottom: 0%;
+
+}
+
+.topnav {
+
+    margin-top: 0;
+}
+footer {
+    margin-top: auto;
+    height: fit-content;
+}
+
+.copyright {
+    margin-top: 2rem;
+    font-size: 15px;
+    font-weight: 450;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* phone version */
+@media only screen and (max-width: 600px) {
+    header {
+        padding-top: 4%;
+
+        /*   display: flex;
+    justify-content: center; */
+    }
+    h1 {
+
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+        margin-top: 8rem;
+
+    }
+    .pimg{
+        height: 300px;
+        
+    }
+    h3 {
+        
+        width: 70%;
+    
+        line-height: 1.5;
+        margin: auto;
+        color: #929497;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 7rem;
+        margin-top: 5rem;
+    }
+
+    .image-section {
+        width: 100%;
+        height: 7vh;
+
+    }
+    .text-image-section {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    /* copy this */
+    .logo {
+        margin-top: 0%;
+        width: 30%;
+    }
+
+    /* copy this */
+    .topnav .a {
+        display: none;
+    }
+
+    /* copy this */
+    i {
+        top: 0%;
+        right: 0%;
+        width: 50%;
+    }
+
+    /* copy this */
+    .topnav a.icon {
+        position: absolute;
+        width: fit-content;
+
+        top: 0.5rem;
+        right: 1rem;
+        font-size: 3rem;
+        display: block;
+        float: right;
+    }
+
+    /* copy this */
+    .topnav.responsive {
+        position: relative;
+    }
+
+    /* copy this */
+    .topnav.responsive a.icon {
+        position: fixed;
+        right: 1rem;
+
+    }
+
+    .atsa {
+
+        display: block;
+        /* padding-right: 35%; */
+        width: 100%;
+        padding-top: 0%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* copy this */
+    .topnav.responsive .atsa {
+        padding-bottom: 0%;
+    }
+
+    /* copy this */
+    .topnav.responsive .a {
+        width: fit-content;
+        display: block;
+        padding: 3% 0% 0% 0%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: .9em;
+
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+        font-weight: 0.0;
+        margin-bottom: 0;
+        margin-top: 3rem;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
